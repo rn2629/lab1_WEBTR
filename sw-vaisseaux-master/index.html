@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SW Vaisseaux</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css?_ijt=ueldpnctbajlfiau4vrprbaddg">
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body>
+
+
+    <!-- page content -->
+	<div class="shadow p-1 mb-1 bg-dark rounded"><p><a href="#" class="text-primary"><h1>Générateur de vaisseaux Star Wars</h1></a></p></div>
+
+
+	<button type="button" class="btn btn-danger" id="buttonV" onclick="monToast()" >Générer un nouveau vaisseau</button>
+
+	<!-- Exemple avec le vaisseau #10 -->
+	<!-- https://swapi.co/api/starships/10/ -->
+	<p><a href="#" class="text-primary bg-dark" data-toggle="popover" title="Popover title" data-content="Detail complet par rapport au vaisseau et caracteristiques "><h2>Informations</h2></a></p>
+	<div class="shadow p-1 mb-1 bg-dark rounded"><p><table>
+		<tr>
+			<th>Nom</td>
+			<td id="nomV">Millenium Falcon</td>
+		</tr>
+		<tr>
+			<th>Modèle</td>
+			<td id="modelV">YT-1300 light freighter</td>
+		</tr>
+		<tr>
+			<th>Classe</td>
+			<td id="classV">Light freighter</td>
+		</tr>
+		<tr>
+			<th>Fabricant</td>
+			<td id="fabV">Corellian Engineering Corporation</td>
+		</tr>
+		<tr>
+			<th>Coût (en crédits)</td>
+			<td id="coutV">100000</td>
+		</tr>
+		<tr>
+			<th>Taille (en mètres)</td>
+			<td id="tailleV">34.37</td>
+		</tr>
+		<tr>
+			<th>Nombre de membres de l'équipage</td>
+			<td id="membresV">4</td>
+		</tr>
+		<tr>
+			<th>Nombre de passagers</td>
+			<td id="nombresPV">6</td>
+		</tr>
+		<tr>
+			<th>Capacité de chargement maximale (en kg)</td>
+			<td id="capaciteV">100000</td>
+		</tr>
+	</table></div>
+
+
+	<p><a href="#" class="text-primary bg-dark"><h2>Pilotes</h2></a></p>
+	<div class="shadow p-1 mb-1 bg-dark rounded"><p><table>
+		<tr>
+			<th>Nom</th>
+			<th>Genre</th>
+		</tr>
+		<tr>
+			<td>Chewbacca</td>
+			<td>male</td>
+		</tr>
+		<tr>
+			<td>Han Solo</td>
+			<td>male</td>
+		</tr>
+		<tr>
+			<td>Lando Calrissian</td>
+			<td>male</td>
+		</tr>
+		<tr>
+			<td>Nien Nunb</td>
+			<td>male</td>
+		</tr>
+	</table></div>
+
+	<p><a href="#" class="text-primary bg-dark"><h2>Films</h2></a></p>
+	<div class="shadow p-1 mb-1 bg-dark rounded"><p><table>
+		<tr>
+			<th>Titre</th>
+			<th>Directeur</th>
+			<th>Date de sortie</th>
+		</tr>
+		<tr>
+			<td id="t1">The Empire Strikes Back</td>
+			<td id="di1">Irvin Kershner</td>
+			<td id="da1">1980-05-17</td>
+		</tr>
+		<tr>
+			<td id="t2">The Force Awaken</td>
+			<td id="di2">J. J. Abrams</td>
+			<td id="da2">2015-12-11</td>
+		</tr>
+		<tr>
+			<td id="t3">Return of the Jedi</td>
+			<td id="di3">Richard Marquand</td>
+			<td id="da3">1983-05-25</td>
+		</tr>
+		<tr>
+			<td id="t4">A New Hope</td>
+			<td id="di4">George Lucas</td>
+			<td id="da4">1977-05-25</td>
+		</tr>
+	</table></div>
+	
+	
+	
+	<!-- scripts -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.js?_ijt=ueldpnctbajlfiau4vrprbaddg"></script>
+	<script src="static/js/script.js"></script>
+  </body>
+</html>
